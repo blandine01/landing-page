@@ -1,0 +1,23 @@
+.container{
+  text-align: center;
+  background-color: white;
+  border:5px;
+  position:absolute;
+  width: 50%;
+  height: 60%;
+  top: 67;
+  left: 175;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+.container h2{
+  font-family: helvetica;
+  font-size:20;
+}
+
+.container p{
+  font-family: helvetica;
+  font-size:13;
+}
+

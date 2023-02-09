@@ -1,0 +1,25 @@
+.card {
+  margin-top: 20px;
+  margin-bottom:20px;
+  margin-right: 100px;
+  margin-left:100px;
+  border-radius: 10px;
+  position:relative;
+}
+
+.card h1 {
+  flex-grow:1;
+  text-align: left;
+  margin-left:50px;
+}
+
+.card h1{
+  font-family: helvetica;
+  font-size:36;
+}
+
+.card img{
+  width: 80%;
+  opacity: 0,1;
+  border-radius: 10px;
+}

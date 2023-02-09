@@ -1,0 +1,83 @@
+.banner{
+  width: 877px;
+  height: 50px;
+  background-color: whitesmoke;
+  font-family: helvetica;
+  font-size:30;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom:-5px;
+  margin-right: 100px;
+  margin-left:100px;
+  border-radius: 10px;
+  position:relative;
+}
+
+.searchbar{
+  position:relative;
+  width:100%;
+  text-align: right;
+  height:auto;
+}
+.formulaire{
+  display:inline-block;
+ }
+.formulaire .champ{
+  width:300px;
+  height:35px;
+  border-radius:5px;
+}
+.formulaire .bouton{
+  background-image: url(images/searchbar_button.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+#contact {
+  width: 90px;
+  height: 30px;
+  border-radius: none;
+  margin-right: 0px;
+  margin-left:9px;
+  }
+
+#prod{
+  width: 79px;
+  height: 30px;
+  border-radius: none;
+  margin-right: 0px;
+  margin-left:50px;
+  }
+
+#appli{
+  width: 180px;
+  height: 30px;
+  border-radius: none;
+  margin-right: 0px;
+  margin-left:15px;
+}
+.banner button{
+  background-color: whitesmoke;
+  border-style:none;
+  transition-property: background;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0;
+}
+
+.banner button:hover{
+background:rgb(118,204,118);
+color:white;
+}
+.banner img{
+  margin-left:100px;
+  width: 117;
+  height: 103;
+  }
