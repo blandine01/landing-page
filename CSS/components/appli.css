@@ -2,13 +2,10 @@
   font-family: helvetica;
   display:flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px;
   background-color: whitesmoke;
   border-radius: 10px;
-  width: 66%;
-  height: 200px;
-  margin-left: 100px;
   margin-top: 10px;
 }
 
@@ -38,6 +35,4 @@
 .appli div{
   align-items: center;
   text-align:center;
-  margin-right: 50px;
-  margin-left:5px;
 }

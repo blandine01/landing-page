@@ -3,10 +3,11 @@
   background-color: white;
   border:5px;
   position:absolute;
-  width: 50%;
-  height: 60%;
-  top: 67;
-  left: 175;
+  width: 59%;
+  height: 62%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   opacity: 0.7;
   border-radius: 10px;
 }

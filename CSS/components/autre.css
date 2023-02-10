@@ -1,0 +1,28 @@
+.autre {
+  background-color: whitesmoke;
+  font-family: helvetica;
+  display:inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 50px;
+  margin-bottom:10px;
+  width:100%;
+}
+
+.autre img {
+  width: 150px;
+}
+.autre h3 {
+  flex-grow: 1;
+  padding-left: 15px;
+  font-size: 16;
+}
+.autre p{
+  font-size: 13;
+}
+
+.autre h2{
+  font-size: 20;
+  font-size: 17;
+}
