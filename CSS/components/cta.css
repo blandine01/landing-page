@@ -1,0 +1,31 @@
+.cta {
+  background-color: none;
+  border-style:none;
+  opacity: 0,5;
+  position:absolute;
+  top: 950px;
+  left: 600px;
+}
+
+.cta {
+  text-decoration: none;
+}
+
+.cta :hover{
+background:rgb(118,204,118);
+color:white;
+}
+
+.cta button{
+  background-color: none;
+  border-style:none;
+  transition-property: background;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0;
+}
+
+.cta button:hover {
+  background:rgb(118,204,118);
+  color:white;
+}

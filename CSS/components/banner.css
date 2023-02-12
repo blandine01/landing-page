@@ -1,6 +1,5 @@
 .banner {
   background-color: whitesmoke;
-  font-family: helvetica;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +13,7 @@
   position:relative;
   text-align: right;
   height:auto;
-}
+  margin-left: 20}
 .formulaire{
   display:inline-block;
  }
@@ -24,7 +23,6 @@
   border-radius:5px;
 }
 .formulaire .bouton{
-  background-image: url(images/searchbar_button.png);
   background-repeat: no-repeat;
   width: 35px;
   height: 35px;
@@ -32,7 +30,7 @@
   border-radius: 5px;
 }
 
-.banner button{
+.bouton{
   background-color: whitesmoke;
   border-style:none;
   transition-property: background;
@@ -41,18 +39,31 @@
   transition-delay: 0;
 }
 
-.banner button:hover{
+.banner strong  {
+  font-family: helvetica;
+  font-size: 15;
+}
+.banner a {
+text-decoration: none;
+}
+
+.bouton:hover{
 background:rgb(118,204,118);
 color:white;
 }
 
-#prod #appli #contact {
+.bouton {
   display: flex;
   flex-wrap: wrap;
 }
-#prod #appli #contact{
+.bouton {
   flex-basis: 100%;
   flex-grow: 20;
+  margin-left: 10
 }
 
-
+#btn {
+  position: absolute;
+  left:95%;
+  bottom:1;
+}

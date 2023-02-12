@@ -3,20 +3,21 @@
   background-color: whitesmoke;
   margin-top: 10px;
   border-radius: 10px;
-  position:absolute;
+  position:relative;
   font-family: helvetica;
   font-size:30;
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 30;
-  width:100%;
+  justify-content: space-around;
+  width:107%;
+  height: auto;
 }
 
 .footer p{
   font-family: helvetica;
-  font-size:15;
-  margin: none;
+  font-size:16;
+  margin-bottom: 0;
+  margin-left: 15;
 }
 
 .b1 .b2 .b3 {
@@ -28,8 +29,12 @@
   flex-grow: 1;
 }
 
-#b2{
-display:block;
+.footer ul{
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
-
+.footer div{
+  margin-right: 50px;
+}
 
